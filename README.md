@@ -17,35 +17,6 @@ The project produces a **professional multi-page PDF report** with charts, table
 | Most active day of the week | Friday |
 | Historical peak hour | 6:00 PM |
 
----
-
-## Project Structure
-
-```
-delitos-caba/
-│
-├── data/
-│   └── delitos_caba_2020_2024.csv    # Source dataset (GCBA open data)
-│
-├── notebooks/
-│   └── exploratory_analysis.ipynb   # Initial dataset exploration
-│
-├── src/
-│   ├── cleaning.py                  # Preprocessing and normalization
-│   ├── analysis.py                  # Statistical calculations and aggregations
-│   └── charts.py                    # Figure generation
-│
-├── report/
-│   └── report.typ                   # Typst report template
-│
-├── output/
-│   └── reporte_delitos.pdf          # Final generated report
-│
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## Tech Stack
 
@@ -69,27 +40,6 @@ delitos-caba/
 
 ---
 
-## How to Run
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/ismaelmerlo/delitos-caba.git
-cd delitos-caba
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run the full pipeline
-```bash
-python src/analysis.py
-```
-
-The PDF report is automatically generated at `output/reporte_delitos.pdf`.
-
----
 
 ## Data Source
 

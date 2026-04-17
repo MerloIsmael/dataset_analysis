@@ -6,7 +6,7 @@ The project produces a **professional multi-page PDF report** with charts, table
 
 ---
 
-## 📊 Key Findings
+## Key Findings
 
 | Indicator | Value |
 |---|---|
@@ -19,7 +19,7 @@ The project produces a **professional multi-page PDF report** with charts, table
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 delitos-caba/
@@ -47,7 +47,7 @@ delitos-caba/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python 3.x** — Main pipeline logic
 - **Pandas** — Data cleaning, transformation, and aggregation
@@ -58,7 +58,7 @@ delitos-caba/
 
 ---
 
-## 📈 Analyses Included
+## Analyses Included
 
 - **Annual evolution** of total incidents with year-over-year percentage change
 - **Breakdown by crime type** (Robbery, Theft, Assault, Threats, Traffic, Homicide)
@@ -69,7 +69,7 @@ delitos-caba/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the repository
 ```bash
@@ -91,14 +91,14 @@ The PDF report is automatically generated at `output/reporte_delitos.pdf`.
 
 ---
 
-## 📁 Data Source
+## Data Source
 
 **datos.buenosaires.gob.ar** — Ministry of Justice and Security, Buenos Aires City Government.
 Publicly available dataset under an open data license.
 
 ---
 
-## 📝 Methodological Note
+## Methodological Note
 
 The year 2020 shows notably low values due to the **mandatory lockdown (ASPO)** in effect for most of that year, which limits direct comparability with subsequent years.
 
@@ -107,4 +107,4 @@ The year 2020 shows notably low values due to the **mandatory lockdown (ASPO)** 
 ## 👤 Author
 
 **Ismael Merlo**
-[LinkedIn](https://linkedin.com/in/tu-perfil) · [GitHub](https://github.com/ismaelmerlo)
+[LinkedIn](linkedin.com/in/ismael-merlo-892518284)
